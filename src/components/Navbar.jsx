@@ -9,7 +9,6 @@ function Navbar() {
     setSidebarOpen(!sidebarOpen);
   };
 
-
   return (
     <>
       <nav className="z-[100] bg-black lg:bg-transparent ">
@@ -20,14 +19,14 @@ function Navbar() {
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-            HOME
+              HOME
             </Link>
             <Link
               to="#"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-            WHITEPAPER
+              WHITEPAPER
             </Link>
           </div>
 
@@ -59,7 +58,7 @@ function Navbar() {
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
-           TOKENOMICS
+              TOKENOMICS
             </Link>
           </div>
         </div>
@@ -91,26 +90,29 @@ function Navbar() {
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-           WHITEPAPER
+            WHITEPAPER
           </Link>
           <Link
             to="roadmap"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-          ROADMAP
+            ROADMAP
           </Link>
           <Link
             to="tokenomics"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
-         TOKENOMICS
+            TOKENOMICS
           </Link>
         </div>
       </div>
 
-      <div className={`black-screen z-[900] ${sidebarOpen ? "show" : ""}`} onClick={toggleSidebar}></div>
+      <div
+        className={`black-screen z-[900] ${sidebarOpen ? "show" : ""}`}
+        onClick={toggleSidebar}
+      ></div>
     </>
   );
 }
