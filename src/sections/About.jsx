@@ -4,7 +4,7 @@ function About() {
   return (
     <section className=" relative">
       <div>
-        <img src="images/about.png" alt="" className=" mx-auto h-[300px]" />
+        <img src="images/about.png" alt="" className=" mx-auto h-[300px] block sm:hidden" />
         {/* <img src="images/bg-rain.png" alt="" className=" absolute -top-[25%] -z-1" /> */}
       </div>
       {/* <div className="container-wrapper text-center block relative z-10">
