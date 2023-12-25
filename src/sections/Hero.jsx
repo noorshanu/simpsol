@@ -5,8 +5,8 @@ function Hero() {
 
       <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <img src="images/cloud1.png" alt="" className="x1 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[160px]  " />
-        <img src="images/star.png" alt="" className="floating  absolute top-[46%] left-[10%] w-auto h-[120px] hidden sm:block" />
-        <img src="images/star2.png" alt="" className="floating  absolute top-[46%] right-[10%] w-auto h-[120px] hidden sm:block" />
+        <img src="images/star.png" alt="" className="floating  absolute top-[25%] sm:top-[46%] left-3 sm:left-[10%] w-auto h-[120px] " />
+        <img src="images/star2.png" alt="" className="floating  absolute top-5 sm:top-[46%] right-[10%] w-auto h-[120px] " />
         <img src="images/cloud2.png" alt="" className="x2 absolute w-auto h-[170px] hidden sm:block" />
         <img src="images/cloud2.png" alt="" className="x4 absolute w-auto h-[150px] hidden sm:block" />
         <img src="images/cloud1.png" alt="" className="x3 absolute top-[5%] sm:top-[20%] left-0 w-auto h-[50px] sm:h-[170px]  " />
