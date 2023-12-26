@@ -33,7 +33,7 @@ function Navbar() {
           <div>
             <img
               src="/images/logo.png"
-              className="h-[40px] sm:h-[75px] w-auto mx-auto"
+              className="h-[70px] sm:h-auto w-auto mx-auto"
               alt=""
             />
           </div>
