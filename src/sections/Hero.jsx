@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="relative z-10 overflow-hidden bg-[#ffd51e]">
-      <div className="container-wrapper lg:h-screen flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
+      <div className="container-wrapper lg:h-[90vh] flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <img
           src="images/cloud1.png"
           alt=""

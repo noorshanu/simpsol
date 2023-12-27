@@ -4,7 +4,7 @@ import About from "sections/About";
 import Hero from "sections/Hero";
 // import JoinCommunity from "sections/JoinCommunity";
 // import Product from "sections/Product";
-// import Roadmap from "sections/Roadmap";
+import Roadmap from "sections/Roadmap";
 // import Tokenomics from "sections/Tokenomics";
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
             <Navbar />
           </div>
 
-          <div className="mb-10 lg:mb-20">
+          <div className=" ">
           {/* <section className="section">
             <span className="span"></span>
             <span className="span"></span>
@@ -33,8 +33,11 @@ function App() {
           </div>
         </div>
 
-        <div className="mb-20" id="about">
+        <div className="" id="about">
           <About />
+        </div>
+        <div id="roadmap">
+          <Roadmap />
         </div>
 
         {/* <div className="mb-14 lg:mb-20" id="tokenomics">
@@ -44,9 +47,7 @@ function App() {
           <Product />
         </div>
 
-        <div id="roadmap">
-          <Roadmap />
-        </div>
+      
 
         <div className="mb-20">
           <FeaturedOn />

@@ -37,7 +37,7 @@ function Roadmap() {
       />
 
       <div className="container-wrapper mb-14">
-        <Title className="text-center mb-10 pt-8">OUR ROAD MAP</Title>
+        <Title className="text-center text-[#8431d6] mb-10 pt-8">OUR ROAD MAP</Title>
 
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
@@ -45,7 +45,7 @@ function Roadmap() {
           <div className="bg-[#e9ecfa] py-5 px-5  rounded-md w-[100%] h-full">
             <div>
             <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 1</h1>
-              <h1 className="font-dream text-black  text-lg mb-2">
+              <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
                 The Bongo Beat Begins
               </h1>
             </div>
@@ -60,7 +60,7 @@ function Roadmap() {
           <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
           <div>
             <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 2</h1>
-              <h1 className="font-dream text-black  text-lg mb-2">
+              <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
                The Bongo Band Assembles
               </h1>
             </div>
@@ -74,7 +74,7 @@ function Roadmap() {
           <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full">
           <div>
           <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 3</h1>
-              <h1 className="font-dream text-black text-center text-lg mb-2">
+              <h1 className="font-dream text-[#8431d6] text-center text-lg mb-2">
               Bongo's Worldwide Tour
               </h1>
             </div>
