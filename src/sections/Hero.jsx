@@ -10,12 +10,12 @@ function Hero() {
         <img
           src="images/star.png"
           alt=""
-          className="floating  absolute top-[25%] sm:top-[46%] left-3 sm:left-[10%] w-auto h-[120px] "
+          className="floating  absolute top-[20%] sm:top-[46%] left-3 sm:left-[10%] w-auto h-[120px] "
         />
         <img
           src="images/star2.png"
           alt=""
-          className="floating  absolute top-5 sm:top-[46%] right-[10%] w-auto h-[120px] "
+          className="floating  absolute top-4 sm:top-[46%] right-[10%] w-auto h-[120px] "
         />
         <img
           src="images/cloud2.png"
@@ -41,7 +41,7 @@ function Hero() {
           data-aos-easing="ease-in-sine"
           alt=""
         />
-        <div className=" text-center">
+        <div className=" text-center mt-16 sm:mt-0">
           <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2"> Solana's True child in Simpson Memes!</h1>
           <p className=" max-w-3xl  text-black text-xl">
           SolSon, the child of Solana, brings Simpson characters to life in the blockchain world, creating a unique and playful vibe. Solson will be solana’s community one stop entry into lambo gang.

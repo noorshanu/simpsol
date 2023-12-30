@@ -42,7 +42,7 @@ function Roadmap() {
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
-          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[55%] mx-auto h-full">
+          <div className="bg-[#ffeeb9] py-5 px-5   rounded-md w-full sm:w-[55%] mx-auto h-full">
             <div>
            
               <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
