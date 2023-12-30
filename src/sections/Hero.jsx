@@ -47,7 +47,7 @@ function Hero() {
           SolSon, the child of Solana, brings Simpson characters to life in the blockchain world, creating a unique and playful vibe. Solson will be solana’s community one stop entry into lambo gang.
           </p>
         </div>
-        <div className="   flex  justify-center items-center gap-6 mt-7 sm:mt-2">
+        <div className="   flex  justify-center items-center gap-6 mt-7 sm:mt-8">
           <div className=" relative">
             <a
               href="/"

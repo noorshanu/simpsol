@@ -25,9 +25,9 @@ const SocialLink = ({ children }) => {
 
 function JoinCommunity() {
   return (
-    <section className="pt-24 relative z-10 overflow-hidden bg-foot">
+    <section className="pt-24 relative z-10 overflow-hidden ">
       <div className="container-wrapper">
-        <div className=" flex items-center justify-between"></div>
+        {/* <div className=" flex items-center justify-between"></div>
 
         <div className="flex flex-col lg:flex-row items-center justify-between gap-10 mb-2 lg:mb-20 text-center lg:text-left space-y-6 lg:space-y-0">
           <div className=" max-w-xl">
@@ -58,11 +58,11 @@ function JoinCommunity() {
              </a>
             </div>
           </div>
-        </div>
+        </div> */}
 
         <div className="flex  items-center justify-center ">
-          <p className="text-center  font-bold">
-            All rights reserved | by BonggoCatToken 2023
+          <p className="text-center text-sm  font-bold">
+            All rights reserved | by SolSon 2023-24
           </p>
         </div>
       </div>
