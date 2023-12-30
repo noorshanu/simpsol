@@ -21,13 +21,13 @@ function Navbar() {
             >
               HOME
             </Link>
-            <Link
+            {/* <Link
               to="#"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
               WHITEPAPER
-            </Link>
+            </Link> */}
           </div>
 
           <div>
@@ -53,13 +53,13 @@ function Navbar() {
             >
               ROADMAP
             </Link>
-            <Link
+            {/* <Link
               to="tokenomics"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
               TOKENOMICS
-            </Link>
+            </Link> */}
           </div>
         </div>
       </nav>
@@ -85,13 +85,13 @@ function Navbar() {
           >
             HOME
           </Link>
-          <Link
+          {/* <Link
             to="#"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
             WHITEPAPER
-          </Link>
+          </Link> */}
           <Link
             to="roadmap"
             onClick={() => setSidebarOpen(false)}
@@ -99,13 +99,13 @@ function Navbar() {
           >
             ROADMAP
           </Link>
-          <Link
+          {/* <Link
             to="tokenomics"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
             TOKENOMICS
-          </Link>
+          </Link> */}
         </div>
       </div>
 

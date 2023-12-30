@@ -41,19 +41,25 @@ function Hero() {
           data-aos-easing="ease-in-sine"
           alt=""
         />
+        <div className=" text-center">
+          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2"> Solana's True child in Simpson Memes!</h1>
+          <p className=" max-w-3xl  text-black text-xl">
+          SolSon, the child of Solana, brings Simpson characters to life in the blockchain world, creating a unique and playful vibe. Solson will be solana’s community one stop entry into lambo gang.
+          </p>
+        </div>
         <div className="   flex  justify-center items-center gap-6 mt-7 sm:mt-2">
           <div className=" relative">
             <a
               href="/"
               className="  btn-main  font-bold text-sm sm:text-xl rounded-full px-12 py-2"
             >
-              PINKSALE
+            Trade
             </a>
           </div>
           <div className="relative">
-            <h1 className="btn-main   font-bold text-sm sm:text-xl rounded-full px-12 py-2">
+            <a href="https://t.me/solana_son" target="_blank" className="btn-main   font-bold text-sm sm:text-xl rounded-full px-12 py-2">
               COMMUNITY
-            </h1>
+            </a>
           </div>
         </div>
       </div>

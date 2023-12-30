@@ -37,27 +37,25 @@ function Roadmap() {
       />
 
       <div className="container-wrapper mb-14">
-        <Title className="text-center text-[#8431d6] mb-10 pt-8">OUR ROAD MAP</Title>
+        <Title className="text-center text-[#8431d6] mb-10 pt-8">OUR Perks</Title>
 
         {/* <img src="/images/roadmap.png" className="w-full" alt="" /> */}
 
         <div className="flex justify-between flex-col sm:flex-row gap-5">
-          <div className="bg-[#e9ecfa] py-5 px-5  rounded-md w-[100%] h-full">
+          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[55%] mx-auto h-full">
             <div>
-            <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 1</h1>
+           
               <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
-                The Bongo Beat Begins
+                The SolSon Beat Begins
               </h1>
             </div>
-            <p className=" text-base font-popins font-normal lh-1_7">• Drum up the Bongo Cat concept.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Compose the whitepaper symphony.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Design purr-fect website & branding.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Mint the $BONGO token.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• Complete our debut audit.</p>
-            <p  className=" text-base font-popins font-normal lh-1_7">• KYC: Know Your Cat (done!).</p>
+            <p className=" text-base font-popins font-normal lh-1_7">• A private solana themed Yatch party for holders after reaching 50m .</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Burj Khalifa marketing after reaching 100m m.cal.</p>
+            <p  className=" text-base font-popins font-normal lh-1_7">• Special Solson lambo gang after reaching 500m m.cap.</p>
+           
           </div>
 
-          <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
+          {/* <div className="bg-[#ffeeb9] py-5 px-5  rounded-md w-[100%] h-full">
           <div>
             <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 2</h1>
               <h1 className="font-dream text-[#8431d6]  text-lg mb-2">
@@ -70,8 +68,8 @@ function Roadmap() {
             <p  className=" text-base font-popins font-normal lh-1_7">• Debut on Uniswap.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Unveil the Bongo Cat Music Platform.</p>
 
-          </div>
-          <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full">
+          </div> */}
+          {/* <div className="bg-[#fbcbe6] py-5 px-5  rounded-md w-[100%] h-full">
           <div>
           <h1 className="font-dream text-black text-center  text-lg mb-1">Phase 3</h1>
               <h1 className="font-dream text-[#8431d6] text-center text-lg mb-2">
@@ -84,7 +82,7 @@ function Roadmap() {
             <p  className=" text-base font-popins font-normal lh-1_7">• Open Bongo Staking & Farming stage.</p>
             <p  className=" text-base font-popins font-normal lh-1_7">• Share ad revenue—because every cat loves treats!</p>
 
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
