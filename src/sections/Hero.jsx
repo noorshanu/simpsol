@@ -53,7 +53,7 @@ function Hero() {
      
         </div>
         <div className=" text-center mt-4 sm:mt-0">
-          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2"> ERC-404: Blending Worlds, Unifying Value – Where Every Token Finds Its Place.</h1>
+          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2"> ERC-404: Blending Worlds, Unifying Value  Where Every Token Finds Its Place.</h1>
           <p className=" max-w-3xl  text-black text-xl mx-auto">
           The Experimental Advanced ERC404 standard, an innovative synthesis of the ERC20 and ERC721 frameworks, adeptly harmonizes the realms of fungible liquidity with the distinctiveness of non-fungible assets.
           </p>
