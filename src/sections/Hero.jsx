@@ -13,7 +13,7 @@ function Hero() {
           className="floating  absolute top-[20%] sm:top-[46%] left-3 sm:left-[10%] w-auto h-[120px] "
         />
         <img
-          src="images/star2.png"
+          src="images/eth2.webp"
           alt=""
           className="floating  absolute top-4 sm:top-[46%] right-[10%] w-auto h-[120px] "
         />
