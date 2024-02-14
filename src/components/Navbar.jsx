@@ -11,16 +11,16 @@ function Navbar() {
 
   return (
     <>
-      <nav className="z-[100] bg-black lg:bg-transparent ">
-        <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-black h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
+      <nav className="z-[100]  lg:bg-transparent mt-2 sm:mt-0 ">
+        <div className="container-wrapper border-none sm:border-2 border-[#fff] bg-tarnsparent h-14 lg:h-16 2xl:h-20 rounded-2xl flex justify-between lg:justify-normal lg:grid lg:grid-cols-[1fr_16rem_1fr] gap-8 items-center">
           <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
-            <Link
+            {/* <Link
               to="/"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
               BUY NOW
-            </Link>
+            </Link> */}
             {/* <Link
               to="#"
               onClick={() => setSidebarOpen(false)}
@@ -38,21 +38,31 @@ function Navbar() {
             />
           </div>
 
-          <button
-            className="text-2xl text-white flex lg:hidden"
-            onClick={() => setSidebarOpen(true)}
+          <div
+            className=" flex lg:hidden"
+          
           >
-            <IoMenu />
-          </button>
+          
+          <div className="flex items-center gap-5 justify-center lg:justify-end">
+             <a href="/">
+              <img src="TELEGRAM.png" alt="" className="w-auto h-[40px]" />
+             </a>
+         
+
+             <a href="/">
+              <img src="X.png" alt="" className="w-auto h-[40px]" />
+             </a>
+            </div>
+          </div>
 
           <div className="items-center justify-evenly text-base font-medium text-white hidden lg:flex">
-            <Link
+            {/* <Link
               to="roadmap"
               onClick={() => setSidebarOpen(false)}
               className="cursor-pointer text-sm xl:text-base"
             >
               ROADMAP
-            </Link>
+            </Link> */}
             {/* <Link
               to="tokenomics"
               onClick={() => setSidebarOpen(false)}
@@ -78,13 +88,13 @@ function Navbar() {
         </div>
 
         <div className="space-y-5 flex flex-col text-left items-start text-black font-medium">
-          <Link
+          {/* <Link
             to="/"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
            BUY NOW
-          </Link>
+          </Link> */}
           {/* <Link
             to="#"
             onClick={() => setSidebarOpen(false)}
@@ -92,13 +102,13 @@ function Navbar() {
           >
             WHITEPAPER
           </Link> */}
-          <Link
+          {/* <Link
             to="roadmap"
             onClick={() => setSidebarOpen(false)}
             className="cursor-pointer text-sm xl:text-base"
           >
             ROADMAP
-          </Link>
+          </Link> */}
           {/* <Link
             to="tokenomics"
             onClick={() => setSidebarOpen(false)}

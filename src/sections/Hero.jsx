@@ -10,12 +10,12 @@ function Hero() {
         <img
           src="images/star.png"
           alt=""
-          className="floating  absolute top-[20%] sm:top-[46%] left-3 sm:left-[10%] w-auto h-[120px] "
+          className="floating  absolute top-[20%] sm:top-[46%] left-3 sm:left-[10%] w-auto h-[100px] "
         />
         <img
           src="images/eth2.webp"
           alt=""
-          className="floating  absolute top-4 sm:top-[46%] right-[10%] w-auto h-[120px] "
+          className="floating  absolute top-4 sm:top-[46%] right-[10%] w-auto h-[100px] "
         />
         <img
           src="images/cloud2.png"
@@ -41,13 +41,7 @@ function Hero() {
           data-aos-easing="ease-in-sine"
           alt=""
         />
-        <div className=" text-center mt-16 sm:mt-0">
-          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2"> Solana's True child in Simpson Memes!</h1>
-          <p className=" max-w-3xl  text-black text-xl">
-          SolSon, the child of Solana, brings Simpson characters to life in the blockchain world, creating a unique and playful vibe. Solson will be solana’s community one stop entry into lambo gang.
-          </p>
-        </div>
-        <div className="   flex  justify-center items-center gap-6 mt-7 sm:mt-8">
+           <div className=" flex   sm:hidden  justify-center items-center  mt-7 sm:mt-8">
           <div className=" relative">
             <a
               href="/"
@@ -56,14 +50,27 @@ function Hero() {
             Trade
             </a>
           </div>
-          {/* <div className="relative">
-            <a href="https://t.me/solana_son" target="_blank" className="btn-main   font-bold text-sm sm:text-xl rounded-full px-12 py-2">
-              COMMUNITY
+     
+        </div>
+        <div className=" text-center mt-4 sm:mt-0">
+          <h1 className="text-center text-[#8431d6] text-2xl sm:text-3xl lg:text-4xl font-dream uppercase pb-2"> ERC-404: Blending Worlds, Unifying Value – Where Every Token Finds Its Place.</h1>
+          <p className=" max-w-3xl  text-black text-xl mx-auto">
+          The Experimental Advanced ERC404 standard, an innovative synthesis of the ERC20 and ERC721 frameworks, adeptly harmonizes the realms of fungible liquidity with the distinctiveness of non-fungible assets.
+          </p>
+        </div>
+        <div className=" hidden   sm:flex  justify-center items-center gap-6 mt-7 sm:mt-8">
+          <div className=" relative">
+            <a
+              href="/"
+              className="  btn-main  font-bold text-sm sm:text-xl rounded-full px-12 py-2"
+            >
+            Trade
             </a>
-          </div> */}
+          </div>
+     
         </div>
          
-        <div className="flex items-center gap-5 justify-center lg:justify-end mt-4">
+        <div className="hidden sm:flex items-center gap-5 justify-center lg:justify-end mt-4">
              <a href="https://t.me/solson404" target="_blank">
               <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
              </a>
