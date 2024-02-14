@@ -45,7 +45,7 @@
 
   html,
   body {
-    @apply bg-[#ffd51e] text-black overflow-x-hidden;
+    @apply bg-[#ffd51e] text-black ;
   }
 
   .container-wrapper {

@@ -1,7 +1,7 @@
 function Hero() {
   return (
     <section className="relative z-10 overflow-hidden bg-[#ffd51e]">
-      <div className="container-wrapper lg:h-[90vh] flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
+      <div className="container-wrapper lg:h-full flex flex-col items-center justify-center pt-6 pb-12 lg:pt-0 lg:pb-0 lg:drop-shadow-[0_0_10rem_white]">
         <img
           src="images/cloud1.png"
           alt=""
@@ -34,7 +34,7 @@ function Hero() {
         />
         <img
           src="/images/hero-img.png"
-          className="w-full lg:w-[55%] lg:h-[60%] object-contain mt-0 sm:mt-[4rem] "
+          className="w-full lg:w-[60%] lg:h-full  mt-0 sm:mt-[8rem] "
           data-aos="fade-up"
           data-aos-offset="300"
           data-aos-duration="1500"
@@ -56,12 +56,23 @@ function Hero() {
             Trade
             </a>
           </div>
-          <div className="relative">
+          {/* <div className="relative">
             <a href="https://t.me/solana_son" target="_blank" className="btn-main   font-bold text-sm sm:text-xl rounded-full px-12 py-2">
               COMMUNITY
             </a>
-          </div>
+          </div> */}
         </div>
+         
+        <div className="flex items-center gap-5 justify-center lg:justify-end mt-4">
+             <a href="https://t.me/solson404" target="_blank">
+              <img src="TELEGRAM.png" alt="" className="w-auto h-[55px]" />
+             </a>
+          
+
+             <a href="https://twitter.com/Solson404" target="_blank">
+              <img src="X.png" alt="" className="w-auto h-[55px]" />
+             </a>
+            </div>
       </div>
     </section>
   );
